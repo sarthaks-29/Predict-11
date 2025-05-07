@@ -182,4 +182,4 @@ def analyze_batter_vs_bowler(file, batter_name, bowler_name):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=5000)

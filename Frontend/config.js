@@ -8,8 +8,8 @@ const config = {
     
     // Production environment (deployed)
     production: {
-        apiBaseUrl: 'http://localhost:5000', // Use local Flask backend for production as well
-        staticBaseUrl: '../Backend/Static/public'
+        apiBaseUrl: 'https://jaanu11-backend.onrender.com', // Use local Flask backend for production as well
+        staticBaseUrl: 'https://jaanu11-backend.onrender.com/Static/public'
     }
 };
 
